@@ -152,7 +152,7 @@ public class SeleniumDriver extends BaseClass {
         }
     }
 
-    //Wait Function
+    //Wait FunctionFarmerT
     public boolean waitForElement(By selector) {
         boolean found = false;
         int counter = 0;

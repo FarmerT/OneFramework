@@ -21,6 +21,41 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e6a464-ee48-4c1e-8c9e-9274ed26b407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-40-10/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-40-10/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-40-10/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-45-51/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-50-35/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-50-35/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_17-50-35/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_18-03-40/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_18-03-40/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2020-09-12_18-03-40/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2021-03-29_12-18-44/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/absaPayments__2021-03-29_12-18-44/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-04-09_16-26-34/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-04-09_16-26-34/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-05-03_12-05-27/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-05-03_12-05-27/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-05-03_20-34-12/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-05-03_20-34-12/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-06-15_14-40-15/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-06-15_14-40-15/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-07-01_16-36-31/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-07-01_16-36-31/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-07-06_14-01-23/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/sampleTest__2021-07-06_14-01-23/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/SeleniumDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testClasses/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testClasses/GoogleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver$BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver$BrowserType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Testsuite.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +87,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1hPj8Ydgnt2Ud6c5cGTEp9AmVti" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -121,26 +158,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1623428138148" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628364855555">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628364855555" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1628356641261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628356641261" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1625574090046">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1628364963587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625574090046" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1625574090045">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628364963587" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1628364963587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625574090045" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1625574090045">
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628364963587" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1628364963587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625574090045" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1625574090046">
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628364963587" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1628364963587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625574090046" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628364963587" />
     <state width="1493" height="196" key="GridCell.Tab.1.bottom" timestamp="1625574090047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
