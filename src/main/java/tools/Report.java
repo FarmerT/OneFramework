@@ -58,6 +58,7 @@ public class Report extends BaseClass {
 
         currentTest.log(Status.PASS, MarkupHelper.createLabel(currentTest.getModel().getName() + " - Test Case PASSED", ExtentColor.GREEN));
         System.out.println("[SUCCESS] - " + message);
+        Log.info("[SUCCESS] - " + message);
 
         report.flush();
     }
@@ -104,6 +105,7 @@ public class Report extends BaseClass {
     public static String finaliseTest() {
         if (currentTest == null) createTest();
         try {
+            currentTest.log(Status.PASS, MarkupHelper.createLabel(currentTest.getModel().getName() + " - Test Case PASSED", ExtentColor.GREEN));
             currentTest.pass("Test Complete!", MediaEntityBuilder.createScreenCaptureFromPath(SeleniumDriverInstance.takeScreenshot(true)).build());
 
 
@@ -111,6 +113,7 @@ public class Report extends BaseClass {
             currentTest.pass("Test Completed!");
         }
         System.out.println("[COMPLETE] - Test Complete");
+        Log.info("[COMPLETE] - Test Complete");
 
         report.flush();
 

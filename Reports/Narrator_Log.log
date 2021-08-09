@@ -1,0 +1,14 @@
+[08-09 15:21:05] [INFO] [tools.SeleniumDriver:27] Browser Launched
+[08-09 15:21:08] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://www.google.com/
+[08-09 15:21:09] [INFO] [tools.SeleniumDriver:323] Hover over element Successfully: //input[@title='Search']
+[08-09 15:21:09] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@title='Search']
+[08-09 15:21:09] [INFO] [tools.SeleniumDriver:220] Typed text 'Apple' - By.xpath: //input[@title='Search']
+[08-09 15:21:09] [INFO] [tools.SeleniumDriver:235] Enter key pressed Successfully
+[08-09 15:21:09] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
+[08-09 15:21:25] [INFO] [tools.SeleniumDriver:27] Browser Launched
+[08-09 15:21:28] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://www.google.com/
+[08-09 15:21:29] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@title='Search']
+[08-09 15:21:29] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@title='Search']
+[08-09 15:21:29] [INFO] [tools.SeleniumDriver:220] Typed text 'Orange' - By.xpath: //input[@title='Search']
+[08-09 15:21:30] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@value='Google Search']
+[08-09 15:21:35] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //input[@value='Google Search']

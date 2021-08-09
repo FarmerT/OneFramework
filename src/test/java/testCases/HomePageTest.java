@@ -1,32 +1,45 @@
+package testCases;
+
 import core.BaseClass;
+import logics.GoogleClearSearch;
+import logics.GoogleSearch;
 import org.junit.*;
 import org.junit.rules.TestName;
-import testClasses.GoogleSearch;
+import org.testng.annotations.AfterTest;
 import tools.Report;
 import tools.SeleniumDriver;
 
-public class Testsuite extends BaseClass {
+public class HomePageTest extends BaseClass {
 
     @Rule
     public TestName name = new TestName();
 
     @Before
     public void initialize() {
-        //First launch browser and create report
+
+        //Create Test Name
         TestName = name.getMethodName();
-        Report.createTest();
+
+        //launch browser
         SeleniumDriverInstance = new SeleniumDriver(SeleniumDriver.BrowserType.FIREFOX);
         Assert.assertTrue("Driver successfully found", SeleniumDriverInstance.getDriver() != null);
         Report.info("Browser Launched");
+        Log.info("Browser Launched");
+
+        //Create report
+        Report.createTest();
+
     }
 
-
     @Test
-    public void sampleTest() {
+    public void firstTest() {
 
         GoogleSearch.Search("Apple");
-       // String result = GoogleSearch.Search("Dog");
+    }
 
+    @Test
+    public void secondTest(){
+        GoogleClearSearch.clearAndSearch();
     }
 
     @After

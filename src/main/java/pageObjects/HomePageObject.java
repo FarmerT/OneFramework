@@ -12,6 +12,11 @@ public class HomePageObject
         return By.xpath("//input[@title='Search']");
     }
 
+    public static String searchField() {
+        return "//input[@title='Search']";
+    }
+
+
     public static By searchButton() {
         return By.xpath("//input[@value='Google Search']");
     }
