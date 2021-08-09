@@ -1,7 +1,6 @@
 package logics;
 
 import core.BaseClass;
-import jxl.common.Assert;
 import tools.Report;
 
 public class GoogleSearch extends BaseClass
@@ -13,6 +12,8 @@ public class GoogleSearch extends BaseClass
         {
             return Report.testFailed("Failed to Navigate to " + pageObjects.HomePageObject.url());
         }
+
+        Report.stepPassedWithScreenshot("Google Home Page");
 
         //Hover over search text field
         if(!SeleniumDriverInstance.hoverOverElement(pageObjects.HomePageObject.searchField()))
