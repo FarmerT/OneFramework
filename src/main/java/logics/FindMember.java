@@ -1,9 +1,6 @@
 package logics;
 
 import core.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import pageObjects.GooglePageObject;
 import pageObjects.OneUI_PageObjects;
 import tools.Report;
 
@@ -11,6 +8,7 @@ public class FindMember extends BaseClass
 {
     public static String FindMembership()
     {
+        //Navigationg to ONEUI url
         if(!SeleniumDriverInstance.navigate(OneUI_PageObjects.url())){
             return Report.testFailed("Failed to Navigate to ONEUI");
         }
@@ -38,6 +36,14 @@ public class FindMember extends BaseClass
         }
 
         //Enter Member Number
+        if(!SeleniumDriverInstance.enterText(OneUI_PageObjects.txtMemberNumberSearch(), "10111")){
+            return Report.testFailed("Failed to Type Member Number");
+        }
+
+        if(!SeleniumDriverInstance.clearText(OneUI_PageObjects.txtMemberNumberSearch())){
+            return Report.testFailed("Failed to clear text on member number");
+        }
+
         if(!SeleniumDriverInstance.enterText(OneUI_PageObjects.txtMemberNumberSearch(), "1234")){
             return Report.testFailed("Failed to Type Member Number");
         }
@@ -68,10 +74,6 @@ public class FindMember extends BaseClass
             return Report.testFailed("Failed to scroll to BAsic Information tab");
         }
 
-        //Validate Member ID Number
-        if(!SeleniumDriverInstance.validateElementText(OneUI_PageObjects.strID(), "5405145139081")){
-            return Report.testFailed("Failed to Validate Member ID Number");
-        }
 
         return Report.finaliseTest();
     }

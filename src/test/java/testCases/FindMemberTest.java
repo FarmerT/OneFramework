@@ -2,7 +2,6 @@ package testCases;
 
 import core.BaseClass;
 import logics.FindMember;
-import logics.GoogleSearch;
 import org.junit.*;
 import org.junit.rules.TestName;
 import tools.Report;

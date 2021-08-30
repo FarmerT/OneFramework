@@ -57,13 +57,6 @@ public class FindProvider extends BaseClass
             return Report.testFailed("Failed to wait for Provider Basic Information");
         }
 
-        //Validate Provider Number and Name
-        if(!SeleniumDriverInstance.validateElementText(OneUI_PageObjects.strPracticeNo(), "27")){
-            return Report.testFailed("Failed to Validate Practice Number");
-        }
-        if(!SeleniumDriverInstance.validateElementText(OneUI_PageObjects.strPracticeName(), "DR DOUWE VELLEMA DR")){
-            return Report.testFailed("Failed to Validate Provider Name");
-        }
 
         return Report.finaliseTest();
     }

@@ -1,117 +1,39 @@
-[08-30 12:44:24] [INFO] [tools.SeleniumDriver:26] Browser Launched
-[08-30 12:44:48] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
-[08-30 12:44:48] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
-[08-30 12:44:48] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:44:49] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:44:49] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:44:49] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:44:49] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:44:49] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:44:50] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'memberNumberSearchInput']
-[08-30 12:44:50] [INFO] [tools.SeleniumDriver:221] Typed text '1234' - By.xpath: //input[@id = 'memberNumberSearchInput']
-[08-30 12:44:50] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
-[08-30 12:44:51] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Member')]
-[08-30 12:44:51] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Member')]
-[08-30 12:44:58] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:44:58] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:44:59] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:44:59] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //*[@id="content"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[1]/div/div[2]
-[08-30 12:44:59] [INFO] [tools.SeleniumDriver:295] Text: 5405145139081 - Successfully Validated
-[08-30 12:44:59] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
-[08-30 12:47:35] [INFO] [tools.SeleniumDriver:26] Browser Launched
-[08-30 12:48:00] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
-[08-30 12:48:01] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
-[08-30 12:48:01] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:48:01] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:48:02] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:48:02] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:48:02] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:48:02] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:48:02] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
-[08-30 12:48:03] [INFO] [tools.SeleniumDriver:221] Typed text '27' - By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
-[08-30 12:48:03] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
-[08-30 12:48:04] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Provider')]
-[08-30 12:48:04] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Provider')]
-[08-30 12:48:11] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:48:12] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:48:12] [INFO] [tools.SeleniumDriver:295] Text: 27 - Successfully Validated
-[08-30 12:48:12] [INFO] [tools.SeleniumDriver:295] Text: DR DOUWE VELLEMA DR - Successfully Validated
-[08-30 12:48:12] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
-[08-30 12:49:51] [INFO] [tools.SeleniumDriver:26] Browser Launched
-[08-30 12:50:15] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
-[08-30 12:50:15] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
-[08-30 12:50:15] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:50:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:50:16] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:50:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:50:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:50:16] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:50:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
-[08-30 12:50:17] [INFO] [tools.SeleniumDriver:221] Typed text '27' - By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
-[08-30 12:50:17] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
-[08-30 12:50:18] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Provider')]
-[08-30 12:50:18] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Provider')]
-[08-30 12:50:25] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:50:26] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:50:26] [INFO] [tools.SeleniumDriver:295] Text: 27 - Successfully Validated
-[08-30 12:50:26] [INFO] [tools.SeleniumDriver:295] Text: DR DOUWE VELLEMA DR - Successfully Validated
-[08-30 12:50:26] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
-[08-30 12:50:31] [INFO] [tools.SeleniumDriver:26] Browser Launched
-[08-30 12:50:54] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
-[08-30 12:50:54] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
-[08-30 12:50:55] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:50:55] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:50:55] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:50:55] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:50:56] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:50:56] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:50:56] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'memberNumberSearchInput']
-[08-30 12:50:56] [INFO] [tools.SeleniumDriver:221] Typed text '1234' - By.xpath: //input[@id = 'memberNumberSearchInput']
-[08-30 12:50:56] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
-[08-30 12:50:57] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Member')]
-[08-30 12:50:58] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Member')]
-[08-30 12:51:05] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:51:05] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:51:05] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:51:05] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //*[@id="content"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[1]/div/div[2]
-[08-30 12:51:05] [INFO] [tools.SeleniumDriver:295] Text: 5405145139081 - Successfully Validated
-[08-30 12:51:05] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
-[08-30 12:53:23] [INFO] [tools.SeleniumDriver:26] Browser Launched
-[08-30 12:53:51] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
-[08-30 12:53:51] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
-[08-30 12:53:52] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:53:52] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:53:52] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:53:52] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:53:53] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:53:53] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class = 'icon-big icon-warning text-center']
-[08-30 12:53:53] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'memberNumberSearchInput']
-[08-30 12:53:53] [INFO] [tools.SeleniumDriver:221] Typed text '1234' - By.xpath: //input[@id = 'memberNumberSearchInput']
-[08-30 12:53:53] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
-[08-30 12:53:54] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Member')]
-[08-30 12:53:55] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Member')]
-[08-30 12:54:02] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:54:02] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:54:02] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:54:02] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //*[@id="content"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[1]/div/div[2]
-[08-30 12:54:02] [INFO] [tools.SeleniumDriver:295] Text: 5405145139081 - Successfully Validated
-[08-30 12:54:03] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
-[08-30 12:54:14] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
-[08-30 12:54:14] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
-[08-30 12:54:25] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:54:25] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:54:26] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
-[08-30 12:54:26] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:54:26] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:54:26] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class= 'icon-big icon-success text-center']
-[08-30 12:54:26] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
-[08-30 12:54:27] [INFO] [tools.SeleniumDriver:221] Typed text '27' - By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
-[08-30 12:54:27] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
-[08-30 12:54:29] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:54:29] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Provider')]
-[08-30 12:54:30] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Provider')]
-[08-30 12:54:37] [INFO] [tools.SeleniumDriver:94] PAUSED
-[08-30 12:54:37] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
-[08-30 12:54:37] [INFO] [tools.SeleniumDriver:295] Text: 27 - Successfully Validated
-[08-30 12:54:37] [INFO] [tools.SeleniumDriver:295] Text: DR DOUWE VELLEMA DR - Successfully Validated
-[08-30 12:54:38] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
+[08-30 16:37:45] [INFO] [tools.SeleniumDriver:26] Browser Launched
+[08-30 16:38:14] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
+[08-30 16:38:14] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
+[08-30 16:38:14] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
+[08-30 16:38:15] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
+[08-30 16:38:15] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
+[08-30 16:38:15] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
+[08-30 16:38:15] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class = 'icon-big icon-warning text-center']
+[08-30 16:38:15] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class = 'icon-big icon-warning text-center']
+[08-30 16:38:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'memberNumberSearchInput']
+[08-30 16:38:16] [INFO] [tools.SeleniumDriver:221] Typed text '10111' - By.xpath: //input[@id = 'memberNumberSearchInput']
+[08-30 16:38:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'memberNumberSearchInput']
+[08-30 16:38:16] [INFO] [tools.SeleniumDriver:314] Text Cleared Successfully
+[08-30 16:38:16] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'memberNumberSearchInput']
+[08-30 16:38:17] [INFO] [tools.SeleniumDriver:221] Typed text '1234' - By.xpath: //input[@id = 'memberNumberSearchInput']
+[08-30 16:38:17] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
+[08-30 16:38:18] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Member')]
+[08-30 16:38:18] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Member')]
+[08-30 16:38:25] [INFO] [tools.SeleniumDriver:94] PAUSED
+[08-30 16:38:26] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
+[08-30 16:38:26] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
+[08-30 16:38:26] [INFO] [tools.SeleniumDriver:170] Scrolled to element Successfully: By.xpath: //*[@id="content"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[1]/div/div[2]
+[08-30 16:38:26] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete
+[08-30 16:38:40] [INFO] [tools.SeleniumDriver:76] Navigating to URL: https://oneui.mmihealth.co.za/oneui/
+[08-30 16:38:40] [INFO] [tools.SeleniumDriver:183] 'One UI' Successfully Validated
+[08-30 16:38:51] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
+[08-30 16:38:51] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[contains(text(), 'Call Center')]
+[08-30 16:38:51] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[contains(text(), 'Call Center')]
+[08-30 16:38:51] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
+[08-30 16:38:52] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //div[@class= 'icon-big icon-success text-center']
+[08-30 16:38:52] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //div[@class= 'icon-big icon-success text-center']
+[08-30 16:38:52] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
+[08-30 16:38:52] [INFO] [tools.SeleniumDriver:221] Typed text '27' - By.xpath: //input[@id = 'searchPcnsPracticeNumberInput']
+[08-30 16:38:52] [INFO] [tools.SeleniumDriver:236] Enter key pressed Successfully
+[08-30 16:38:53] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //a[contains(text(), 'View Provider')]
+[08-30 16:38:53] [INFO] [tools.SeleniumDriver:202] Clicked Element: By.xpath: //a[contains(text(), 'View Provider')]
+[08-30 16:39:00] [INFO] [tools.SeleniumDriver:94] PAUSED
+[08-30 16:39:01] [INFO] [tools.SeleniumDriver:111] Web Element found: By.xpath: //ion-segment-button[@ng-reflect-value = 'basic']
+[08-30 16:39:01] [INFO] [tools.SeleniumDriver:116] [COMPLETE] - Test Complete

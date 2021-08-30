@@ -80,7 +80,7 @@ public class OneUI_PageObjects {
     }
 
     public static String strID() {
-        return "//*[@id=\"content\"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[11]/div/div[2]";
+        return "//[@id=\"content\"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[11]/div/div[2]";
     }
     public static By MemberName() {
         return By.xpath("//*[@id=\"content\"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/ion-list/div[1]/div[1]/div/div[2]");
@@ -112,5 +112,6 @@ public class OneUI_PageObjects {
     public static String strPracticeName() {
         return "//*[@id=\"content\"]/div[2]/div/div[2]/div/div/div/div/div/div[2]/ion-list/div[1]/div[2]/div/div[2]";
     }
+
 
 }

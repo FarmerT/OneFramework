@@ -1,7 +1,6 @@
 package testCases;
 
 import core.BaseClass;
-import logics.FindMember;
 import logics.FindProvider;
 import org.junit.*;
 import org.junit.rules.TestName;

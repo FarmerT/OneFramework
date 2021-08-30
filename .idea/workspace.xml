@@ -22,19 +22,44 @@
     <list default="true" id="b4e6a464-ee48-4c1e-8c9e-9274ed26b407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/Narrator_Log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/Narrator_Log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/googleSearchTest__2021-08-09_16-27-27/Screenshots/1_PASSED.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/googleSearchTest__2021-08-09_16-27-27/Screenshots/2_PASSED.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/googleSearchTest__2021-08-09_16-27-27/extentReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logics/GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logics/GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/GooglePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/Screenshots/2_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/Screenshots/3_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/Screenshots/4_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/Screenshots/5_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/Screenshots/6_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/RegressionTest__2021-08-30_12-53-22/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateMembership__2021-08-30_12-44-23/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateMembership__2021-08-30_12-44-23/Screenshots/2_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateMembership__2021-08-30_12-44-23/Screenshots/3_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateMembership__2021-08-30_12-44-23/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-47-34/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-47-34/Screenshots/2_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-47-34/Screenshots/3_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-47-34/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/Screenshots/2_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/Screenshots/3_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/Screenshots/4_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/Screenshots/5_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/Screenshots/6_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/validateProvider__2021-08-30_12-49-50/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logics/FindMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logics/FindMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logics/FindProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logics/FindProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logics/GoogleSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/GooglePageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/OneUI_PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/OneUI_PageObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tools/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/SeleniumDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/GoogleSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logics/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logics/GoogleSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/FindMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/FindMemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/FindProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/FindProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/GoogleSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logics/FindMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logics/FindMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logics/FindProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logics/FindProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/OneUI_PageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/OneUI_PageObjects.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/FindMemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/FindMemberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/FindProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/FindProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/RegressionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/RegressionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +100,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
@@ -134,21 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.GoogleSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation" />
       <extension name="coverage">
@@ -164,13 +175,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegressionTest.RegressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.RegressionTest" />
+      <option name="METHOD_NAME" value="RegressionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RegressionTest" />
-        <item itemvalue="JUnit.FindProviderTest" />
+        <item itemvalue="JUnit.RegressionTest.RegressionTest" />
         <item itemvalue="JUnit.FindMemberTest" />
         <item itemvalue="JUnit.FindMemberTest.validateMembership" />
-        <item itemvalue="JUnit.GoogleSearchTest" />
+        <item itemvalue="JUnit.FindProviderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,50 +252,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1630254742211" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628517193759">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630330457025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628517193759" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1630330457025" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1628419162080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628419162080" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1630320783024">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1630329444973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1630320783024">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630329444973" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1630329444973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1630320783024">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630329444973" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1630329444973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1630320783024">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630329444972" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1630329444973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
-    <state width="1493" height="131" key="GridCell.Tab.1.bottom" timestamp="1630320782554">
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630329444973" />
+    <state width="1493" height="267" key="GridCell.Tab.1.bottom" timestamp="1630327163078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
-    <state width="1493" height="131" key="GridCell.Tab.1.center" timestamp="1630320782554">
+    <state width="1493" height="267" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630327163078" />
+    <state width="1493" height="267" key="GridCell.Tab.1.center" timestamp="1630327163078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
-    <state width="1493" height="131" key="GridCell.Tab.1.left" timestamp="1630320782554">
+    <state width="1493" height="267" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1630327163078" />
+    <state width="1493" height="267" key="GridCell.Tab.1.left" timestamp="1630327163078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
-    <state width="1493" height="131" key="GridCell.Tab.1.right" timestamp="1630320782554">
+    <state width="1493" height="267" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1630327163078" />
+    <state width="1493" height="267" key="GridCell.Tab.1.right" timestamp="1630327163078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1628365551659">
+    <state width="1493" height="267" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1630327163078" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1630330418395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628365551659" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1630330418395" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623427480230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

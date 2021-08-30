@@ -302,6 +302,26 @@ public class SeleniumDriver extends BaseClass {
         }
     }
 
+    //Clear Function
+    public boolean clearText(By selector){
+        try
+        {
+            waitForElement(selector);
+            WebDriverWait wait = new WebDriverWait(this.driver,3);
+            wait.until(ExpectedConditions.elementToBeClickable(selector));
+            WebElement clearText = this.driver.findElement(selector);
+            clearText.clear();
+            Log.info("Text Cleared Successfully");
+            return true;
+
+        }
+        catch(Exception e){
+            Log.error("Failed to clear text");
+            return  false;
+
+        }
+    }
+
     //Screenshot Function
     public String takeScreenshot(boolean testStatus) {
         screenshotCounter++;
