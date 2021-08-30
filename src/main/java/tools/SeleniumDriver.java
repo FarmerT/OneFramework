@@ -214,9 +214,10 @@ public class SeleniumDriver extends BaseClass {
             waitForElement(selector);
             WebDriverWait wait = new WebDriverWait(this.driver, 1);
             wait.until(ExpectedConditions.elementToBeClickable(selector));
-            WebElement elementToClick = this.driver.findElement(selector);
-            elementToClick.clear();
-            elementToClick.sendKeys(textToEnter);
+            WebElement elementToEnter = this.driver.findElement(selector);
+            elementToEnter.clear();
+            elementToEnter.click();
+            elementToEnter.sendKeys(textToEnter);
             Log.info("Typed text '" + textToEnter + "' - " + selector);
             return true;
         } catch (Exception e) {
@@ -264,23 +265,6 @@ public class SeleniumDriver extends BaseClass {
         }
     }
 
-
-    //Clear Text Function
-    public boolean clearText(By selector) {
-        try {
-            waitForElement(selector);
-            WebDriverWait wait = new WebDriverWait(this.driver, 1);
-            wait.until(ExpectedConditions.elementToBeClickable(selector));
-            WebElement elementToClick = this.driver.findElement(selector);
-            elementToClick.clear();
-            Log.debug("Clicked element - " + selector);
-            return true;
-        } catch (Exception e) {
-            Log.error("Failed to click element: " +  selector + "- " + e.getMessage());
-            return false;
-        }
-    }
-
     //Retrieve Text Function
     public String getTextFromElement(By selector) {
         try {
@@ -297,36 +281,23 @@ public class SeleniumDriver extends BaseClass {
     }
 
     //Validate Text Function
-    public boolean validateElementText(By selector, String textToValidate) {
+    public boolean validateElementText(String selector, String textToValidate) {
         try {
-            waitForElement(selector);
-            WebDriverWait wait = new WebDriverWait(this.driver, 1);
-            wait.until(ExpectedConditions.elementToBeClickable(selector));
-            WebElement element = this.driver.findElement(selector);
-            Log.info("Text: "+ selector +" - Successfully Validated");
-            return element.getText().equals(textToValidate);
-        } catch (Exception e) {
-            return false;
-        }
-    }
 
-    //Hover over element function
-    public boolean hoverOverElement(String selector)
-    {
-        try
-        {
-            WebDriverWait wait = new WebDriverWait(this.driver, 1);
-            wait.until(ExpectedConditions.elementToBeClickable(By.xpath(selector)));
-            Actions hoverTo = new Actions(this.driver);
-            hoverTo.moveToElement(this.driver.findElement(By.xpath(selector)));
-            hoverTo.perform();
-            Log.info("Hover over element Successfully: " + selector);
+            WebDriverWait wait = new WebDriverWait(this.driver, 3);
+            WebElement element = this.driver.findElement(By.xpath(selector));
+
+            if (!element.getText().equals(textToValidate))
+            {
+                Log.error("Failed to validate " + element.getText() + ", against " + textToValidate + ".");
+            }
+            else{
+                Log.info("Text: "+ element.getText() +" - Successfully Validated");
+            }
+
+
             return true;
-
-        }
-        catch(Exception e)
-        {
-            Log.error("Failed to Hover over element - " + e.getMessage());
+        } catch (Exception e) {
             return false;
         }
     }

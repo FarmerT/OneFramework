@@ -1,13 +1,14 @@
 package testCases;
 
 import core.BaseClass;
+import logics.FindMember;
 import logics.GoogleSearch;
 import org.junit.*;
 import org.junit.rules.TestName;
 import tools.Report;
 import tools.SeleniumDriver;
 
-public class HomePageTest extends BaseClass {
+public class FindMemberTest extends BaseClass {
 
     @Rule
     public TestName name = new TestName();
@@ -30,14 +31,15 @@ public class HomePageTest extends BaseClass {
     }
 
     @Test
-    public void googleSearchTest() {
+    public void validateMembership() {
 
-        GoogleSearch.Search("Orange");
+        FindMember.FindMembership();
     }
 
     @After
     public void cleanUp() {
         SeleniumDriverInstance.shutDown();
+
     }
 
 }

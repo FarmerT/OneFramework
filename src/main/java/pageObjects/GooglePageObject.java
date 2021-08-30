@@ -2,7 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 
-public class HomePageObject
+public class GooglePageObject
 {
     public static String url() {
         return "https://www.google.com/";
@@ -23,6 +23,9 @@ public class HomePageObject
 
     public static By validateSearch(String term) {
         return By.xpath("//input[@value='"+term+"']");
+    }
 
+    public static String strValidate(){
+        return "//input[@value='Orange']";
     }
 }

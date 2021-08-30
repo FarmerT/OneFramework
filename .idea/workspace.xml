@@ -21,15 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e6a464-ee48-4c1e-8c9e-9274ed26b407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Narrator_Log.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/firstTest__2021-08-09_15-21-04/Screenshots/1_PASSED.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/firstTest__2021-08-09_15-21-04/extentReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logics/GoogleClearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Narrator_Log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/Narrator_Log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/googleSearchTest__2021-08-09_16-27-27/Screenshots/1_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/googleSearchTest__2021-08-09_16-27-27/Screenshots/2_PASSED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/googleSearchTest__2021-08-09_16-27-27/extentReport.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logics/GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logics/GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logics/GoogleClearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/GooglePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/SeleniumDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/GoogleSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/logics/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logics/GoogleSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/SeleniumDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/HomePageTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,24 +76,34 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Git Frameworks/MavenHybridFramework/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testCases" />
+      <recent name="logics" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Selenium_Automation\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HomePageTest">
-    <configuration name="HomePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegressionTest">
+    <configuration name="FindMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.FindMemberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMemberTest.validateMembership" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.HomePageTest" />
-      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.FindMemberTest" />
+      <option name="METHOD_NAME" value="validateMembership" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation" />
       <extension name="coverage">
         <pattern>
@@ -113,18 +128,49 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.HomePageTest" />
-      <option name="METHOD_NAME" value="secondTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="testCases.FindProviderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.GoogleSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.RegressionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HomePageTest" />
-        <item itemvalue="JUnit.HomePageTest.secondTest" />
-        <item itemvalue="JUnit.HomePageTest.sampleTest" />
+        <item itemvalue="JUnit.RegressionTest" />
+        <item itemvalue="JUnit.FindProviderTest" />
+        <item itemvalue="JUnit.FindMemberTest" />
+        <item itemvalue="JUnit.FindMemberTest.validateMembership" />
+        <item itemvalue="JUnit.GoogleSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,10 +213,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="537" y="236" key="#Notifications" timestamp="1628748712697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1628748712697" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628517784540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1628517784540" />
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630254742211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1630254742211" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628517193759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -179,38 +233,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628419162080" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1628519223932">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1630320783024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628519223932" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1628519223932">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1630320783024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628519223932" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1628519223932">
+    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
+    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1630320783024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628519223932" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1628519223932">
+    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1630320783024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628519223932" />
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1628519223448">
+    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630320783024" />
+    <state width="1493" height="131" key="GridCell.Tab.1.bottom" timestamp="1630320782554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628519223448" />
-    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1628519223448">
+    <state width="1493" height="131" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
+    <state width="1493" height="131" key="GridCell.Tab.1.center" timestamp="1630320782554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1628519223448" />
-    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1628519223448">
+    <state width="1493" height="131" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
+    <state width="1493" height="131" key="GridCell.Tab.1.left" timestamp="1630320782554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1628519223448" />
-    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1628519223448">
+    <state width="1493" height="131" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
+    <state width="1493" height="131" key="GridCell.Tab.1.right" timestamp="1630320782554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1628519223448" />
+    <state width="1493" height="131" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1630320782554" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1628365551659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
